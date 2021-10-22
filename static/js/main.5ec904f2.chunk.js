@@ -1,0 +1,2 @@
+(this["webpackJsonprestaurant-frontend"]=this["webpackJsonprestaurant-frontend"]||[]).push([[0],{10:function(n,t,e){"use strict";e.r(t);e(1);var r=e(3),c=e.n(r),s=(e(8),e(0));var a=function(){return Object(s.jsx)(s.Fragment,{children:Object(s.jsx)("h2",{children:"new app"})})};c.a.render(Object(s.jsx)(a,{}),document.getElementById("root"))},8:function(n,t,e){}},[[10,1,2]]]);
+//# sourceMappingURL=main.5ec904f2.chunk.js.map
