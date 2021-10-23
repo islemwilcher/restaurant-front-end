@@ -11,20 +11,19 @@
 }
 .typography {
   margin: auto !important;
-  font-weight: 600;
+  font-weight: 600 !important;
   text-shadow: 1px 1px 12px white;
-  background-color: rgba(236, 136, 54, 0.3);
   width: 400px;
   padding: 5px;
 }
-.link {
+.linkp {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   border-radius: 5px;
-  width: 300px;
+  max-width: 300px;
   padding: 5px;
   margin: 40px 0;
+  opacity: 0.9 !important;
 }
 
 @media (max-width: 768px) {
@@ -36,9 +35,5 @@
     font-size: 16px;
     font-weight: 800;
     width: 300px;
-  }
-  .link {
-    width: 200px;
-    margin: 20px 0;
   }
 }

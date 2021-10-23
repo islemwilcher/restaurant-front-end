@@ -1,4 +1,4 @@
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
+import { Switch, BrowserRouter as Router } from 'react-router-dom'
 import { Paper } from '@material-ui/core'
 
 import Navbar from './components/navbar/Navbar'
