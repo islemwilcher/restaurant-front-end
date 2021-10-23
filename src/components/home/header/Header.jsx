@@ -15,7 +15,7 @@ const Header = () => {
             Italian pizza, Hombourger<br />
             <Link style={navStyle} className="link" to ='#'>
                 <h4>see all food dishes</h4>
-            <BsArrowRight />
+            <BsArrowRight className="arrow" />
             </Link>
             </Typography>
         </div>

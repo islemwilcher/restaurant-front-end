@@ -8,7 +8,7 @@ const Ul = styled.ul`
     flex-flow: row nowrap;
     margin-left: auto;
     background-color: white;
-    
+    font-family: sans-serif;
     li {
         padding: 0 25px;
         font-size: 20px;

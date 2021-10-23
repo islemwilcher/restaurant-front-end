@@ -1,33 +1,52 @@
 .container {
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
+  padding: 20px;
   background-color: rgb(8, 1, 1);
-  display: grid;
-  grid-template-columns: 40% 30% 30%;
+  display: flex;
+  justify-content: space-between;
 }
 .title {
-  grid-column: 1;
+  padding: 10px;
+  height: 300px;
   display: flex;
   align-items: flex-end;
+  margin: auto;
+  background-color: rgb(8, 1, 1) !important;
+  color: white !important;
+  box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.3) !important;
 }
-.title-typo {
-  font-weight: 600;
-  max-width: 100%;
-  color: white;
-  margin: auto auto 10px auto;
-}
+
 .pic {
-  grid-column: 2;
+  width: 375px;
+  height: 500px;
+  margin: auto;
   background: url("../../../assets/frut3.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 60%;
-  margin: 20px auto;
+  box-shadow: 6px 6px 6px white;
 }
+
 .about {
-  grid-column: 3;
   display: flex;
-  padding: 20px;
   align-items: center;
-  background-color: orange;
+  padding: 30px;
+  background-color: rgb(8, 1, 1);
+}
+.aboutpaper {
+  padding: 20px;
+  background-color: orange !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+  .pic {
+    width: 300px;
+    height: 400px;
+  }
 }
