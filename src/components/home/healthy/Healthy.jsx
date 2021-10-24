@@ -1,5 +1,6 @@
 
 import { Paper, Typography } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 import './healthy.css'
 
 const Healthy = () => {
@@ -7,14 +8,15 @@ const Healthy = () => {
         <>
         <div className='container'>
 
-            <Paper className='title'>
+            <Link className='title' to='/healthydishes'>
+            <Paper className='titlepaper'>
                 <Typography className='title-typo' variant='h3' >
                     20 Healthy<br />
                     Smoothie<br />
                     dishes we made
                 </Typography>
             </Paper>
-
+            </Link>
             <Paper className='pic'>
             </Paper>
 
