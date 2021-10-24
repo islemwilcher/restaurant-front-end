@@ -14,10 +14,12 @@ const Ul = styled.ul`
         font-size: 20px;
         font-weight: 400;
         color : black;
+        border-top: 2px solid white;
+        border-Bottom: 2px solid white;
     }
     li:hover{
-        color: rgb(136, 165, 219);
-        border-bottom: 1px solid rgb(136, 165, 219);
+        color: orange;
+        border-bottom: 2px solid orange;
     }
 
     @media (max-width: 768px) {
