@@ -1,13 +1,15 @@
 
 import Header from "./header/Header"
 import Healthy from "./healthy/Healthy"
+import Testiest from './testiest/Testiest'
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header />
             <Healthy />
-        </div>
+            <Testiest />
+        </>
     )
 }
 
