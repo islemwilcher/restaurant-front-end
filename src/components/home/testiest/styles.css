@@ -30,8 +30,9 @@
   margin: 40px 30px 40px auto !important;
   opacity: 0.9 !important;
 }
-.linkp Paper {
+.linkp-paper {
   width: 150px;
+  padding: 5px;
   display: flex;
 }
 

@@ -17,7 +17,7 @@ const Testiest = () => {
             </Typography>
             </Paper>
             <Link style={navStyle} className="linkp" to ='#'>
-                <Paper>
+                <Paper className="linkp-paper">
                     <h4>See More</h4>
                     <BsArrowRight className="arrow" />
                 </Paper>
