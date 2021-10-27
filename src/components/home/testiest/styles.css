@@ -9,14 +9,30 @@
   display: grid;
   align-content: center;
 }
-.linkp {
+.paragpaper {
+  max-width: 500px;
+  margin: 40px 30px 40px auto !important;
+}
+.linkparag {
   display: flex;
   align-items: center;
   border-radius: 5px;
-  max-width: 300px;
+  max-width: 500px;
   padding: 5px;
-  margin: 40px 0;
+  margin: 40px 30px 40px auto !important;
   opacity: 0.9 !important;
+}
+.linkp {
+  display: flex !important;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 40px 30px 40px auto !important;
+  opacity: 0.9 !important;
+}
+.linkp Paper {
+  width: 150px;
+  display: flex;
 }
 
 @media (max-width: 768px) {
