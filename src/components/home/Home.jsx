@@ -3,6 +3,8 @@ import Header from "./header/Header"
 import Healthy from "./healthy/Healthy"
 import Media from "./media/Media"
 import Testiest from './testiest/Testiest'
+import Pic from './pic/Pic'
+import Reviews from "./reviews/Reviews"
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
             <Healthy />
             <Testiest />
             <Media />
+            <Pic />
+            <Reviews />
         </>
     )
 }

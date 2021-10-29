@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  min-height: 70vh;
+  padding: 20px;
+  background-color: rgb(8, 1, 1);
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  text-decoration: none;
+  width: 40%;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(8, 1, 1) !important;
+  color: white !important;
+  box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.3) !important;
+}
+.titlepaper {
+  background-color: rgb(8, 1, 1) !important;
+  color: white !important;
+}
+
+.pic {
+  width: 375px;
+  height: 500px;
+  margin: auto;
+  background: url("../../../assets/home4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  height: 30vh;
+  padding: 30px;
+  background-color: rgb(8, 1, 1);
+}
+.aboutpaper {
+  padding: 20px;
+  background-color: orange !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+  .pic {
+    width: 300px;
+    height: 400px;
+  }
+}
